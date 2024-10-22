@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useParams } from "react-router-dom";
 import Shoes from "../../shoes.json";
 import "../../App.css";

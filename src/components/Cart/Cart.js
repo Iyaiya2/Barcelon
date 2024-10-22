@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import "../../App.css";
 import SummaryCard from "../SummaryCard/SummaryCard";
 import clearCartImage from "../../images/empty-cart.svg";

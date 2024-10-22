@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: linear-gradient(-90deg, gray, white);
+  background: linear-gradient(to right, #0044a7, #ba0c2f);
   height: 100vh;
 }
 

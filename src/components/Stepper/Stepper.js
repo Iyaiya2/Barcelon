@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Stepper from "react-stepper-horizontal";
 import Button from "@material-ui/core/Button";
@@ -8,7 +8,18 @@ import AddressForm from "./forms/AddressForm";
 import PlaceOrderForm from "./forms/PlaceOrderForm";
 import "./stepper.css";
 import PlaceOrder from "../PlaceOrder/PlaceOrder";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
+
+function MyComponent() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/next-page');
+  };
+
+  return <button onClick={handleClick}>Go to Next Page</button>;
+}
+
 
 // Custom Styles
 const useStyles = makeStyles((theme) => ({

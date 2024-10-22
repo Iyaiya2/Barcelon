@@ -1,5 +1,6 @@
 import { productState } from "../states/productState";
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';  // Assure-toi que l'importation est correcte
+
 
 // Create Product Slice
 const productSlice = createSlice({
