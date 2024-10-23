@@ -4,6 +4,89 @@
   padding: 0;
 }
 
+.product-items {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.shoe-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.shoe-price {
+  font-size: 20px;
+  color: #333;
+}
+
+.shoe-description {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.shoe-quantity {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.shoe-sizes {
+  margin: 10px 0;
+}
+
+.shoe-sizes ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.size-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.size-button.selected {
+  background-color: #0056b3;
+}
+
+.size-button:hover {
+  background-color: #0056b3;
+}
+
+.add-to-cart-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-button:hover {
+  background-color: #218838;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 html {
   min-height: 100%;
 }
@@ -69,11 +152,10 @@ body {
   display: flex;
 
   background: #e0d9e7c5;
-  border-radius: 30px;
+
   flex-direction: row;
   justify-content: center;
   margin-bottom: 20px;
-  margin: 0.5rem;
   box-shadow: 1px 1px 4px gray;
 }
 
@@ -148,7 +230,7 @@ body {
 
 .banner-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("./images/nike2.jpg");
+    url("https://wallpaper.forfun.com/fetch/27/27cab7f82d1ef1dc390842e19bb6f6b7.jpeg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -549,9 +631,9 @@ body {
 }
 
 .shoe-image {
-  width: 80%;
+  width: 40%;
   margin: 10px;
-  border-radius: 60px;
+  border-radius: 14px;
   box-shadow: 2px 2px 2px gray;
 
   height: auto;

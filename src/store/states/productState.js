@@ -1,19 +1,19 @@
 const productState = [
   {
     id: "shoe1",
-    title: "Flex Experience Run 9",
+    title: "t-shirt barclone",
     price: 65.0,
     imageUrl:
-      "https://m.media-amazon.com/images/I/61WBg7crTQL._AC_SR700,525_.jpg",
+      "https://shop.rogerssl.com/8254-thickbox_default/camiseta-fc-barcelona-1a-equipacion-24-25-replica-oficial-para-mujer.jpg",
     quantity: 0,
     added: false,
   },
   {
     id: "shoe2",
-    title: "Flex Control 4",
-    price: 65.0,
+    title: "sneaker barcelone",
+    price: 120.0,
     imageUrl:
-      "https://m.media-amazon.com/images/I/71Cc3JcCN7L._AC_SR700,525_.jpg",
+      "https://i.ebayimg.com/images/g/9OQAAOSwO3BlRhwR/s-l1600.webp",
     quantity: 0,
     added: false,
   },

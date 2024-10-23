@@ -1,68 +1,101 @@
-{ 
+{
   "shoe1": {
-    "name": "Flex Experience Run 9",
-    "img": "https://m.media-amazon.com/images/I/61WBg7crTQL._AC_SR700,525_.jpg",
-    "img2": "https://m.media-amazon.com/images/I/61FxQSqEpOL._AC_SR700,525_.jpg",
-    "price": 65.00
+    "name": "T-shirt Barcelone",
+    "img": "https://shop.rogerssl.com/8254-thickbox_default/camiseta-fc-barcelona-1a-equipacion-24-25-replica-oficial-para-mujer.jpg",
+    "img2": "https://shop.rogerssl.com/8253-thickbox_default/camiseta-fc-barcelona-1a-equipacion-24-25-replica-oficial-para-mujer.jpg",
+    "price": 80.00,
+    "description": "T-shirt officiel du FC Barcelone, parfait pour les fans.",
+    "quantity": 10,
+    "sizes": ["S", "M", "L", "XL"]
   },
   "shoe2": {
-    "name": "Flex Control 4",
-    "img": "https://m.media-amazon.com/images/I/71Cc3JcCN7L._AC_SR700,525_.jpg",
-    "img2": "https://m.media-amazon.com/images/I/717eNWShX9L._AC_SR700,525_.jpg",
-    "price": 65.00 
+    "name": "Sneakers Barcelone",
+    "img": "https://i.ebayimg.com/images/g/9OQAAOSwO3BlRhwR/s-l1600.webp",
+    "img2": "https://i.ebayimg.com/images/g/v~QAAOSwLWJlRhgS/s-l960.webp",
+    "price": 120.00,
+    "description": "Sneakers tendance aux couleurs du FC Barcelone.",
+    "quantity": 5,
+    "sizes": ["40", "41", "42", "43"]
   },
-   "shoe3": {
+  "shoe3": {
     "name": "Air Max Motion 2",
     "img": "https://m.media-amazon.com/images/I/61IPQlMjDkL._AC_SR700,525_.jpg",
     "img2": "https://m.media-amazon.com/images/I/71ZH5cjP+oL._AC_SR700,525_.jpg",
-    "price": 84.95
+    "price": 84.95,
+    "description": "Chaussures confortables avec un design élégant.",
+    "quantity": 15,
+    "sizes": ["38", "39", "40", "41", "42"]
   },
   "shoe4": {
     "name": "Phantom GT Club DF FG/MG",
-    "img2": "https://m.media-amazon.com/images/I/71caHEigvFL._AC_SR700,525_.jpg",
     "img": "https://m.media-amazon.com/images/I/81kz-cAPItL._AC_SR700,525_.jpg",
-    "price": 65.00
+    "img2": "https://m.media-amazon.com/images/I/71caHEigvFL._AC_SR700,525_.jpg",
+    "price": 65.00,
+    "description": "Chaussures de football pour les joueurs sérieux.",
+    "quantity": 8,
+    "sizes": ["40", "41", "42"]
   },
   "shoe5": {
     "name": "Revolution 5",
     "img": "https://m.media-amazon.com/images/I/71hDmDMMP2L._AC_SR700,525_.jpg",
     "img2": "https://m.media-amazon.com/images/I/71t0hlD+c-L._AC_SR700,525_.jpg",
-    "price": 60.00
+    "price": 60.00,
+    "description": "Des chaussures de course pour un confort ultime.",
+    "quantity": 20,
+    "sizes": ["39", "40", "41", "42", "43"]
   },
   "shoe6": {
     "name": "Air Zoom Pegasus 37",
-    "img2": "https://m.media-amazon.com/images/I/71g-We8o72L._AC_SR700,525_.jpg",
     "img": "https://m.media-amazon.com/images/I/817zeMd4VHL._AC_SR700,525_.jpg",
-    "price": 120.00
+    "img2": "https://m.media-amazon.com/images/I/71g-We8o72L._AC_SR700,525_.jpg",
+    "price": 120.00,
+    "description": "Des chaussures de course légendaires, idéales pour les coureurs.",
+    "quantity": 12,
+    "sizes": ["40", "41", "42", "43"]
   },
   "shoe7": {
     "name": "Air Zoom UNVRS",
     "img": "https://m.media-amazon.com/images/I/81C1kDkbvIL._AC_SR700,525_.jpg",
     "img2": "https://m.media-amazon.com/images/I/814KQoM6r7L._AC_SR700,525_.jpg",
-    "price": 160.00
+    "price": 160.00,
+    "description": "Chaussures polyvalentes pour le sport et le style.",
+    "quantity": 6,
+    "sizes": ["39", "40", "41", "42"]
   },
   "shoe8": {
     "name": "Precision IV",
-    "img2": "https://m.media-amazon.com/images/I/71mZoDkYldL._AC_SR700,525_.jpg",
     "img": "https://m.media-amazon.com/images/I/71nygeHSIxL._AC_SR700,525_.jpg",
-    "price": 70.00
+    "img2": "https://m.media-amazon.com/images/I/71mZoDkYldL._AC_SR700,525_.jpg",
+    "price": 70.00,
+    "description": "Conçues pour la précision sur le terrain.",
+    "quantity": 10,
+    "sizes": ["41", "42", "43"]
   },
   "shoe9": {
     "name": "Zoom Winflo 7",
     "img": "https://m.media-amazon.com/images/I/617B1dkZLnL._AC_SR700,525_.jpg",
     "img2": "https://m.media-amazon.com/images/I/71oPkHow9cL._AC_SR700,525_.jpg",
-    "price": 90.00
+    "price": 90.00,
+    "description": "Chaussures de course avec un bon amorti.",
+    "quantity": 18,
+    "sizes": ["39", "40", "41"]
   },
   "shoe10": {
     "name": "Revolution 5 (Infant/Toddler)",
+    "img": "https://m.media-amazon.com/images/I/71soSeWlu8L._AC_SR700,525_.jpg",
     "img2": "https://m.media-amazon.com/images/I/71aE0iPUSYL._AC_SR700,525_.jpg",
-    "img": "https://m.media-amazon.com/images/I/71soSeWlu8L._AC_SR700,525_.jpg ",
-    "price": 45.00
+    "price": 45.00,
+    "description": "Chaussures pour enfants, parfaites pour le jeu.",
+    "quantity": 25,
+    "sizes": ["24", "25", "26"]
   },
   "shoe11": {
     "name": "Free Metcon 3",
-    "img2": "https://m.media-amazon.com/images/I/71EqKNLiY8L._AC_SR700,525_.jpg",
     "img": "https://m.media-amazon.com/images/I/711psPomIbL._AC_SR700,525_.jpg",
-    "price": 120.00
+    "img2": "https://m.media-amazon.com/images/I/71EqKNLiY8L._AC_SR700,525_.jpg",
+    "price": 120.00,
+    "description": "Des chaussures idéales pour l'entraînement.",
+    "quantity": 8,
+    "sizes": ["40", "41", "42"]
   }
 }

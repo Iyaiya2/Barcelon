@@ -8,9 +8,9 @@ function Home() {
       <div>
         <span className="tagline">JUST DO IT</span>
         <div className="tagline-para">
-          Nike has been your companion in happiness, both big and small, for
-          over 50 years. Our roots are firmly grounded in Pakistan and with its
-          people.
+        Furthermore, our partnership with FC Barcelona represents the perfect fusion of performance and passion. 
+        For decades, Nike and Barcelona have collaborated to create iconic kits that reflect the club's rich history and culture while pushing the boundaries of innovation and style on and off the field. Together, we strive to celebrate excellence,
+        inspire millions of fans, and promote the spirit of football worldwide..
         </div>
 
         <br />
