@@ -8,18 +8,7 @@ import AddressForm from "./forms/AddressForm";
 import PlaceOrderForm from "./forms/PlaceOrderForm";
 import "./stepper.css";
 import PlaceOrder from "../PlaceOrder/PlaceOrder";
-import { useNavigate } from 'react-router-dom';
-
-function MyComponent() {
-  const navigate = useNavigate();
-
-  const handleClick = () => {
-    navigate('/next-page');
-  };
-
-  return <button onClick={handleClick}>Go to Next Page</button>;
-}
-
+import { useNavigate } from 'react-router-dom';  // Utilisation de useNavigate
 
 // Custom Styles
 const useStyles = makeStyles((theme) => ({
@@ -41,23 +30,20 @@ const useStyles = makeStyles((theme) => ({
 
 // Functions
 
-// // getStepLabels - To Get Step Labels
+// Get Step Labels
 const getStepLabels = () => {
   return ["Personal Information", "Address Information", "Place Order"];
 };
 
-// // GetStepContent - Decide Which Form to show and gets it's data based on StepIndex
+// Get Step Content
 const getStepContent = (stepIndex, handleNext) => {
   switch (stepIndex) {
     case 0:
       return <PersonalInfoForm handleNext={handleNext} />;
-
     case 1:
       return <AddressForm handleNext={handleNext} />;
-
     case 2:
       return <PlaceOrderForm handleNext={handleNext} />;
-
     default:
       return "Unknown Steps";
   }
@@ -65,7 +51,7 @@ const getStepContent = (stepIndex, handleNext) => {
 
 // Component
 const StepperComponent = () => {
-  let history = useHistory();
+  const navigate = useNavigate();  // Remplacement de useHistory par useNavigate
 
   const classes = useStyles(); // Use Custom Styles Created
   const [activeStep, setActiveStep] = useState(0); // Set Active Step
@@ -79,7 +65,7 @@ const StepperComponent = () => {
   // Handle Reset Button
   const handleReset = () => {
     setActiveStep(0);
-    history.push("/");
+    navigate("/");  // Utilisation de navigate pour rediriger vers la page d'accueil
   };
 
   // Return
@@ -97,7 +83,6 @@ const StepperComponent = () => {
       </div>
       <div>
         {/* If steps are completed or not */}
-
         {activeStep === stepLabels.length ? (
           <div>
             <PlaceOrder />

@@ -1,5 +1,15 @@
 import { productState } from "../states/productState";
 import { createSlice } from '@reduxjs/toolkit';  // Assure-toi que l'importation est correcte
+// productSlice.js
+
+import { addToCart as addToCartFromStore } from '../../store'; // Renommer l'importation pour éviter le conflit
+
+// Action pour ajouter un produit au panier
+export const addToCart = (product) => ({
+  type: 'ADD_TO_CART',
+  payload: product,
+});
+
 
 
 // Create Product Slice
