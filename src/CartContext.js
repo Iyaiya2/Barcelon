@@ -30,7 +30,7 @@ export const CartProvider = (props) => {
     } else {
       newCart.products.push({
         ...product,
-        size: size,  // Assign selected size
+        size,  // Assign selected size directly (ES6 shorthand)
         quantity: 1,
       });
     }
@@ -64,7 +64,7 @@ export const CartProvider = (props) => {
   };
 
   return (
-    <CartContext.Provider value={{ cart, setCart, addToCart, removeFromCart, emptyCart }}>
+    <CartContext.Provider value={{ cart, addToCart, removeFromCart, emptyCart }}>
       <ShippingContext.Provider value={[shippingState, setShippingState]}>
         {props.children}
       </ShippingContext.Provider>
