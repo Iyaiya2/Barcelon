@@ -2,8 +2,14 @@
 
 ### *Shoe Showcasing Website for Nike template, I Developed for Practicing purpose.*
 
+### Installation 
 
-
+```
+Npm Intall 
+```
+```
+Npm Start
+```
 
 ## Features
 
